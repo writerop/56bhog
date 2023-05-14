@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background: url('images/food_bg.jpg'); */
+    font-family: "Montserrat", sans-serif;
+    margin: 30px;
+    font-size: 17px;
+    padding: 20px;
+}
+
+body,
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    background-color: #FFFBC1;
+    padding: 4px 5px 4px 5px;
+    border: 4px solid #614124;
+    /* border-radius: 70px; */
+    margin: 20px 0;
+}
+
+.join-box {
+    background: #fff;
+    display: flex;
+}
+
+.join-left {
+    flex-basis: 40%;
+    color: #ef8172;
+    background-color: white;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid #614124;
+    border-radius: 4px;
+}
+
+.join-right {
+    flex-basis: 60%;
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid #614124;
+    border-radius: 4px;
+}
+
+.join-right,
+img {
+    height: 100%;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    background-color: #348605c4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+}
+
+input[type="submit"]:hover {
+    background-color: #4caf84;
+}
+
+.text_title{
+    text-align: center;
+    color: #614124;
+}

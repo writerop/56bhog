@@ -1,0 +1,84 @@
+body{
+    background-color: #FFFBC1;
+    font-family: "Montserrat";
+}
+
+h2{
+    font-weight:bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.post-img{
+    height: 404px;
+    overflow: hidden;
+}
+
+.post-img img{
+    width: 100%;
+}
+
+/* .blog-post-content{
+    background-color: rebeccapurple;
+} */
+
+.home-articles{
+    background-color: white;
+}
+
+.blog-post-content h1{
+    text-align: center;
+}
+
+.blog-post-content p{
+    font-size: 18px;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    color: #614124;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: #F7A4A4;
+}
+
+.row{
+    display: flex;
+}
+.more-post{
+    flex-direction: row;
+    align-items: center;
+}
+.blogpost-meta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-info{
+    margin: 12px 0;
+}
+.author-info div{
+    padding: 4px 0px;
+    font-family: var(--font2);
+}
+.social{
+    padding-right: 53px;
+    align-self: center;
+    cursor: pointer;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
